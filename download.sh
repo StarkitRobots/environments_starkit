@@ -7,7 +7,7 @@ then
 fi 
 
 echo "Retrieving robot environment"
-rsync --exclude core -l -r rhoban@${remote}:env/* .
+rsync --exclude core -l -r starkit@${remote}:env/* .
 
 echo "Checking git status"
 git status
