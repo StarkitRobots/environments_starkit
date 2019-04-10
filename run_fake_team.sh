@@ -19,6 +19,6 @@ do
     sed -i "s/id.value = [0-9]/id.value = ${robot_id}/g" rhio/referee/values.conf
     ./KidSizeNoVision -p ${port} > out.log 2>&1 &
     robot_id=$((robot_id + 1))
-    ~/rhoban/behaviorviewer/build/BehaviorViewer 127.0.0.1 ${port} &
+    ~/starkit/behaviorviewer/build/BehaviorViewer 127.0.0.1 ${port} &
     cd ..
 done
