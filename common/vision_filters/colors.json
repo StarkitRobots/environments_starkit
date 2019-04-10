@@ -1,6 +1,19 @@
 // Require existence of the following external filters
 // Source (YCbCr image)
 [
+    
+/*	
+	{
+        "class name" : "TemplateOpenCV",
+        "content" : {
+            "name" : "test_opencv",
+            "dependencies" : ["source"],
+            "paramInts" : {"paramInt1" : 0, "paramInt2" : 0},
+            "paramFloats" : {"paramFloat1" : 0, "paramFloat2" : 0}
+        }
+    },
+*/
+
     {
         "class name" : "ColorDensity",
         "content" : {
@@ -29,6 +42,7 @@
     {
         "class name" : "Integral",
         "content" : {
+            //"display" : true,
             "name" : "greenII",
             "dependencies" : ["green"]
         }
@@ -43,6 +57,7 @@
     {
         "class name" : "Threshold",
         "content" : {
+           // "display" : true,
             "name" : "white",
             "dependencies" : ["Y"],
             "paramInts" : {"threshold" : 100}
@@ -69,7 +84,7 @@
         "content" : {
             "name" : "green",
             "dependencies" : ["source"],
-            // "display" : true,
+           // "display" : true,
             "paramInts" : {
                 "maxU" : 132,
                 "maxV" : 129,

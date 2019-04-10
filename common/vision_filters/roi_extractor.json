@@ -22,6 +22,7 @@
             "../common/vision_filters/robots.json"
         ],
         "filters" : [
+            /*
             {
                 "class name" : "PatchRecorder",
                 "content" : {
@@ -44,6 +45,7 @@
                     }
                 }
             },
+            */
             {
                 "class name" : "PatchRecorder",
                 "content" : {
@@ -51,7 +53,7 @@
                     "dependencies" : ["ballPatchProvider"],
                     "prefix" : "patches/ball/",
                     "paramInts" : {
-                        "period" : 10
+                        "period" : 1
                     }
                 }
             },

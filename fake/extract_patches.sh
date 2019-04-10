@@ -8,8 +8,8 @@ objTypes[0]="ball"
 objTypes[1]="goal"
 objTypes[2]="obstacle"
 
-ROBOTS=(olive nova arya tom rush)
-
+#ROBOTS=(olive nova arya tom rush)
+ROBOTS=(starkit1 starkit2 starkit3 starkit4) 
 dstFolder="patches/results"
 
 

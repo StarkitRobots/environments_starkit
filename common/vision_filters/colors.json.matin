@@ -78,7 +78,7 @@
                 "minY" : 40
 
             },
-            "display" : true
+            //"display" : true
         }
     }
 ]
