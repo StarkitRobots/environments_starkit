@@ -34,6 +34,7 @@
                     }
                 }
             },
+            */
             {
                 "class name" : "PatchRecorder",
                 "content" : {
@@ -41,11 +42,11 @@
                     "dependencies" : ["goalPatchProvider"],
                     "prefix" : "patches/goal/",
                     "paramInts" : {
-                        "period" : 10
+                        "period" : 1
                     }
                 }
             },
-            */
+            /*
             {
                 "class name" : "PatchRecorder",
                 "content" : {
@@ -57,6 +58,7 @@
                     }
                 }
             },
+            */
             {
                 "class name" : "SourceLogs",
                 "content" : {

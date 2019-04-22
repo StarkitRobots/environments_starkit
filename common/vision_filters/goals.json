@@ -8,7 +8,7 @@
         "class name" : "GoalByDNN",
         "content" : {
             "name" : "goalByDNN",
-//            "display" : true,
+            //"display" : true,
             "dependencies" : ["goalPatchProvider"],
             "arch_path" : "../common/dnn/posts/structure.json",
             "weights_path" : "../common/dnn/posts/weights.bin",
@@ -32,6 +32,7 @@
         "class name" : "GoalByII",
         "content" : {
             "name" : "goalROIProvider",
+            //"display" : true,
             "dependencies" : ["whiteII","greenII","ballRadiusProvider","clipping_by_border"],
             "paramInts" : {
                 "decimationRate" : 3,
